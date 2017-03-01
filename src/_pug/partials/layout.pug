@@ -1,0 +1,21 @@
+block variables
+doctype html
+html(lang="zh-CN")
+	head
+		meta(charset="utf-8")
+		meta(http-equiv="x-ua-compatible" content="ie=edge")
+		title 神马游戏
+		meta(name="description" content="神马游戏")
+		meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0")
+		meta(name="format-detection" content="telephone=no, email=no")
+		meta(name="apple-mobile-web-app-capable" content="yes")
+		meta(name="apple-mobile-web-app-status-bar-style" content="green")
+		link(rel="shortcut icon" href="./images/favicon.ico")
+		block styles
+			link(rel="stylesheet" href="./styles/styles.css")
+		block scripts
+			script(src="./scripts/vendor/jquery.min.js")
+	body
+		div(id= pageConfig.pageName+"-page")
+			block content
+		block modal
