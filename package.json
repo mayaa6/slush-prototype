@@ -1,11 +1,11 @@
 {
-    "name": "slush-h5bp",
-    "description": "A professional front-end template for building fast, robust, and adaptable web apps or sites.",
-    "version": "0.1.5",
+    "name": "slush-quick-prototype",
+    "description": "A web front-end template with SASS and Pug for quick prototype web app for desktop or mobile",
+    "version": "0.0.1",
     "homepage": "https://github.com/arvindr21/slush-h5bp",
     "author": {
-        "name": "Arvind Ravulavaru",
-        "email": "arvind.ravulavaru@gmail.com"
+        "name": "Mayaa2",
+        "email": "enarkdia@gmail.com"
     },
     "repository": {
         "type": "git",
@@ -37,7 +37,8 @@
     },
     "keywords": [
         "slushgenerator",
-        "HTML5",
-        "Boilerplate"
+        "prototype",
+        "pug",
+        ""
     ]
 }
