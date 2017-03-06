@@ -2,21 +2,21 @@
     "name": "slush-quick-prototype",
     "description": "A web front-end template with SASS and Pug for quick prototype web app for desktop or mobile",
     "version": "0.0.1",
-    "homepage": "https://github.com/arvindr21/slush-h5bp",
+    "homepage": "https://github.com/mayaa6/slush-prototype",
     "author": {
-        "name": "Mayaa2",
+        "name": "mayaa6",
         "email": "enarkdia@gmail.com"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/arvindr21/slush-h5bp.git"
+        "url": "git://github.com/mayaa6/slush-prototype.git"
     },
     "bugs": {
-        "url": "https://github.com/arvindr21/slush-h5bp/issues"
+        "url": "https://github.com/mayaa6/slush-prototype/issues"
     },
     "licenses": [{
         "type": "MIT",
-        "url": "https://github.com/arvindr21/slush-h5bp/blob/master/LICENSE"
+        "url": "https://github.com/mayaa6/slush-prototype/blob/master/LICENSE"
     }],
     "main": "slushfile.js",
     "engines": {
@@ -39,6 +39,6 @@
         "slushgenerator",
         "prototype",
         "pug",
-        ""
+        "sass"
     ]
 }
