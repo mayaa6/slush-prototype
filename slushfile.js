@@ -57,7 +57,8 @@ gulp.task('default', function (done) {
         default: defaults.appName
     }, {
         name: 'appDescription',
-        message: 'What is the description?'
+        message: 'What is the description?',
+        default: 'Keep struggle to the aha moment'
     }, {
         name: 'appVersion',
         message: 'What is the version of your project?',
