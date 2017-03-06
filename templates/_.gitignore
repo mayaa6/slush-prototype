@@ -1,8 +1,0 @@
-node_modules
-bower_components
-.sass-cache
-*.sublime-project
-*.sublime-workspace
-npm-debug.log
-sftp-config.json
-dist
