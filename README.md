@@ -1,14 +1,14 @@
-# Slush Quick-prototype [![Build Status](https://secure.travis-ci.org/mayaa6/slush-quick-prototype.png?branch=master)](https://travis-ci.org/mayaa6/slush-quick-prototype) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-quick-prototype.png)](http://badges.enytc.com/for/npm/slush-quick-prototype)
+# Slush prototype [![Build Status](https://secure.travis-ci.org/mayaa6/slush-prototype.png?branch=master)](https://travis-ci.org/mayaa6/slush-prototype) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-prototype.png)](http://badges.enytc.com/for/npm/slush-prototype)
 
 > 
 
 
 ## Getting Started
 
-Install `slush-quick-prototype` globally:
+Install `slush-prototype` globally:
 
 ```bash
-$ npm install -g slush-quick-prototype
+$ npm install -g slush-prototype
 ```
 
 ### Usage
@@ -16,13 +16,13 @@ $ npm install -g slush-quick-prototype
 Create a new folder for your project:
 
 ```bash
-$ mkdir my-slush-quick-prototype
+$ mkdir my-slush-prototype
 ```
 
 Run the generator from within the new folder:
 
 ```bash
-$ cd my-slush-quick-prototype && slush quick-prototype
+$ cd my-slush-prototype && slush prototype
 ```
 
 ## Getting To Know Slush
@@ -35,10 +35,10 @@ To find out more about Slush, check out the [documentation](https://github.com/s
 
 ## Contributing
 
-See the [CONTRIBUTING Guidelines](https://github.com/mayaa6/slush-quick-prototype/blob/master/CONTRIBUTING.md)
+See the [CONTRIBUTING Guidelines](https://github.com/mayaa6/slush-prototype/blob/master/CONTRIBUTING.md)
 
 ## Support
-If you have any problem or suggestion please open an issue [here](https://github.com/mayaa6/slush-quick-prototype/issues).
+If you have any problem or suggestion please open an issue [here](https://github.com/mayaa6/slush-prototype/issues).
 
 ## License 
 
