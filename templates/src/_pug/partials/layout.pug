@@ -1,0 +1,21 @@
+block variables
+doctype html
+html(lang="zh-CN")
+	head
+		meta(charset="utf-8")
+		meta(http-equiv="x-ua-compatible" content="ie=edge")
+		title <%= appName %>
+		meta(name="description" content="<%= appName %>")
+		meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0")
+		meta(name="format-detection" content="telephone=no, email=no")
+		meta(name="apple-mobile-web-app-capable" content="yes")
+		meta(name="apple-mobile-web-app-status-bar-style" content="blue")
+		link(rel="shortcut icon" href="./images/favicon.png" type="image/png")
+		link(rel="shortcut icon" href="./images/favicon.ico" type="image/ico")
+		block styles
+			link(rel="stylesheet" href="./styles/styles.css")
+		block scripts
+			script(src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js")
+	body(id= pageConfig.pageName+"Page", class= pageConfig.pageName+"-page")
+		block content
+		block modal

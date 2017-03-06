@@ -1,0 +1,18 @@
+@charset "utf-8";
+*,
+html,
+body {
+    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", "PingFangSC-Regular", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", Tahoma, sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}

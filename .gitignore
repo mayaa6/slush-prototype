@@ -1,11 +1,13 @@
-node_modules
-bower_components
 temp
 *.log
 .idea
+
+node_modules
+bower_components
+.sass-cache
 *.sublime-project
 *.sublime-workspace
-sftp-config.json
-.sass-cache
 npm-debug.log
+sftp-config.json
+dist/*
 *.html

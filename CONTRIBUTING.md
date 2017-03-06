@@ -1,4 +1,4 @@
-# Contributing to slush-h5bp
+# Contributing to quick-prototype
 
 Please take a moment to review this document in order to make the contribution
 process easy and effective for everyone involved.
@@ -93,11 +93,11 @@ project:
 
    ```bash
    # Clone your fork of the repo into the current directory
-   git clone https://github.com/<your-username>/slush-h5bp
+   git clone https://github.com/<your-username>/slush-quick-prototype
    # Navigate to the newly cloned directory
-   cd slush-h5bp
+   cd slush-quick-prototype
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/arvindr21/slush-h5bp
+   git remote add upstream https://github.com/mayaa6/slush-quick-prototype
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:
@@ -137,7 +137,7 @@ project:
 
 ## Conventions of commit messages
 
-Addding files on repo
+Adding files on repo
 
 ```bash
 git commit -m "Add filename"
