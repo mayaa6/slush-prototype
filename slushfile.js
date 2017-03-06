@@ -87,7 +87,7 @@ gulp.task('default', function (done) {
             }
             answers.appNameSlug = _.slugify(answers.appName);
             gulp.src(__dirname + '/templates/**/*')
-                // .pipe(template(answers))
+                .pipe(template(answers))
                 .pipe(rename(function (file) {
                     if (file.basename === '_') {
                         file.basename = '';

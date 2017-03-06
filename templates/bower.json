@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "description": "Yinghuo Law Firm System",
+  "version": "<%= appVersion %>",
+  "description": "<%= appDescription %>",
   "main": "index.js",
   "authors": [
     "Zhao",
@@ -13,7 +13,7 @@
     "OA"
   ],
   "name": [
-    "yinghuo"
+    "<%= appNameSlug %>"
   ],
   "moduleType": [],
   "homepage": "",

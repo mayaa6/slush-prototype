@@ -35,6 +35,10 @@
     "underscore.string": "^2.3.3"
   },
   "keywords": [
-    "slushgenerator"
+    "slushgenerator",
+    "pug",
+    "sass",
+    "scss",
+    "prototype"
   ]
 }
