@@ -11,6 +11,10 @@
         "type": "git",
         "url": "git://github.com/<%= userName %>/<%= appNameSlug %>.git"
     },
+    "scripts": {
+        "dev": "gulp dev",
+        "dist": "gulp dist"
+    },
     "bugs": {
         "url": "https://github.com/<%= userName %>/<%= appNameSlug %>/issues"
     },

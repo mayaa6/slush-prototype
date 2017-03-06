@@ -40,7 +40,6 @@ gulp.task('pug:static', function() {
     return gulp.src('src/_pug/*.pug').pipe(pug({
         pretty: true
     })).pipe(rename({
-        // suffix: "-static",
         extname: ".html"
     })).pipe(gulp.dest('src/'))
 });
@@ -49,11 +48,7 @@ gulp.task('html:dist', function() {
     return gulp.src('src/_pug/*.pug').pipe(pug({
         pretty: true
     })).pipe(htmlreplace({
-        'css': 'styles/bundle.min.css',
-        'js': 'scripts/bundle.min.js',
-        'js-page': 'scripts/page.js',
-        'css-page': 'styles/styles.min.css',
-        'js-jquery': 'scripts/jquery.min.js'
+        'css': 'styles/style.min.css'
     })).pipe(rename({
         extname: ".html"
     })).pipe(gulp.dest('dist/'))
@@ -92,11 +87,11 @@ gulp.task('data', function() {
 });
 
 gulp.task('js', function() {
-    return gulp.src(['src/scripts/app/page.js', 'src/scripts/vendor/jquery.min.js']).pipe(gulp.dest('dist/scripts'));
+    return gulp.src('src/scripts/**/*.js').pipe(gulp.dest('dist/scripts'));
 });
 
 gulp.task('dev', ['browserSync:static', 'style:dev', 'pug:static'], function() {
-    gulp.watch('src/pug-static/partials/*.pug', ['pug:static'], browserSync.reload);
+    gulp.watch('src/_pug/partials/*.pug', ['pug:static'], browserSync.reload);
     gulp.watch('src/styles/_sass/**/*.scss', ['style:dev'], browserSync.reload);
     gulp.watch('src/styles/*.css', browserSync.reload);
     gulp.watch('src/scripts/**/*.js', browserSync.reload);
