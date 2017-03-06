@@ -57,7 +57,8 @@ gulp.task('default', function (done) {
         default: defaults.appName
     }, {
         name: 'appDescription',
-        message: 'What is the description?'
+        message: 'What is the description?',
+        default: 'Struggle to the aha moment'
     }, {
         name: 'appVersion',
         message: 'What is the version of your project?',
@@ -86,11 +87,12 @@ gulp.task('default', function (done) {
                 return done();
             }
             answers.appNameSlug = _.slugify(answers.appName);
-            gulp.src(__dirname + '/templates/**')
+            gulp.src(__dirname + '/templates/**/*')
                 .pipe(template(answers))
                 .pipe(rename(function (file) {
-                    if (file.basename[0] === '_') {
-                        file.basename = '.' + file.basename.slice(1);
+                    console.log(file)
+                    if (file.basename === '_') {
+                        file.basename = '';
                     }
                 }))
                 .pipe(conflict('./'))
