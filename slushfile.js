@@ -20,7 +20,7 @@ gulp.task('default', function (done) {
     var prompts = [{
         type: 'confirm',
         name: 'moveon',
-        message: 'Scaffold a HTML5 Boilerplate?'
+        message: 'Scaffold a quick web front-end prototype project here?'
     }];
     //Ask
     inquirer.prompt(prompts,
