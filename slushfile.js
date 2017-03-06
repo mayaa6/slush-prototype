@@ -86,11 +86,11 @@ gulp.task('default', function (done) {
                 return done();
             }
             answers.appNameSlug = _.slugify(answers.appName);
-            gulp.src(__dirname + '/templates/**')
-                .pipe(template(answers))
+            gulp.src(__dirname + '/templates/**/*')
+                // .pipe(template(answers))
                 .pipe(rename(function (file) {
-                    if (file.basename[0] === '_') {
-                        file.basename = '.' + file.basename.slice(1);
+                    if (file.basename === '_') {
+                        file.basename = '';
                     }
                 }))
                 .pipe(conflict('./'))
