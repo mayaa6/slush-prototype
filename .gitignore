@@ -2,8 +2,3 @@ node_modules/
 temp
 *.log
 .idea
-*.sublime-project
-*.sublime-workspace
-bower_components
-.sass-cache
-npm-debug.log
