@@ -1,0 +1,15 @@
+{
+  "name": "html5-boilerplate",
+  "version": "0.1.0",
+  "description": "HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arvind Ravulavaru",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-connect": "^2.0.5",
+    "gulp": "^3.6.2"
+  }
+}
