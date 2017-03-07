@@ -1,18 +1,18 @@
 {
-  "name": "slush-quick-prototype",
+  "name": "slush-prototype",
   "description": "A web front-end template with pug and sass for quick prototyping",
   "version": "0.1.0",
-  "homepage": "https://github.com/mayaa6/slush-quick-prototype",
+  "homepage": "https://github.com/mayaa6/slush-prototype",
   "author": {
     "name": "Haochen Zhao",
     "email": "haochen@huancheclub.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mayaa6/slush-quick-prototype.git"
+    "url": "git://github.com/mayaa6/slush-prototype.git"
   },
   "bugs": {
-    "url": "https://github.com/mayaa6/slush-quick-prototype/issues"
+    "url": "https://github.com/mayaa6/slush-prototype/issues"
   },
   "license": "MIT",
   "main": "slushfile.js",
